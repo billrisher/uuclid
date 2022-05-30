@@ -1,0 +1,38 @@
+- fork code and keep up to date with main
+- clippy and rustfmt tests pass
+- unit tests all pass
+- any additions or changes are well-documented
+
+# Intro
+
+Hey there! Thanks for taking the time to check out the project and to help make it better! Your help is much appreciated and will help the project grow to be much more than it set out to be!
+
+These guidelines help keep the contribution process as smooth as possible and ensure that your issue gets taken seriously!
+
+UUCLID is a fairly simple project originally intended to be extendable but simple. We aren't looking for any fancy features outside of being really good and really fast! The best ways to contribute would be for bug fixes, code enhancements, and documentation writing/editing. If you wish to submit a feature request, please make sure to follow these guidelines very carefully!
+
+# Ground Rules
+
+- Make sure that your code changes pass all `rustfmt` and `clippy` checks.
+- Try to keep PR's as minimal as possible - changes in the code that aren't documented or expanded upon have a greater chance of not getting merged.
+- Make sure that you're writing tests for your code changes! It's important to ensure that your code works, and you testing it yourself saves the rest of the community some time!
+- Make sure that you have your code well-documented! Communication is key here.
+- Have fun (please) :^)
+
+# Contribution Workflow
+
+(adapted from [starship](https://github.com/starship/starship))
+
+1. Fork this repository
+2. Create a branch off of `main` for your work: `git checkout -b <branch-name>`
+3. Make your changes and remember - "Commit Early, Commit Often"
+4. Push your changes to your fork
+5. Create a pull request from your branch to the main upstream branch
+6. We'll review the pull request as soon as we can
+7. We'll handle all the merging once your PR is approved :)
+
+Every new feature or enhancement should pass all previous tests and (most of the time) should come with additional tests that are passing as well.
+
+These tests can all be run with `cargo test`.
+
+Cheers, and happy coding!
